@@ -42,4 +42,4 @@ AppServiceConsoleLogs
 
 ## Submission Links
 
-* **YouTube Video Demo:** [INSERT_YOUR_YOUTUBE_LINK_HERE]
+* **YouTube Video Demo:** https://youtu.be/FfzReWRJkNc

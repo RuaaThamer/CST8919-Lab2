@@ -1,0 +1,35 @@
+### Test 1: Successful Login
+POST https://cst8919lab2.azurewebsites.net/login
+Content-Type: application/json
+
+{
+    "username": "admin",
+    "password": "securepassword"
+}
+
+### Test 2: Failed Login (Attempt 1)
+POST https://cst8919lab2.azurewebsites.net/login
+Content-Type: application/json
+
+{
+    "username": "admin",
+    "password": "wrongpassword1"
+}
+
+### Test 3: Failed Login (Attempt 2)
+POST https://cst8919lab2.azurewebsites.net/login
+Content-Type: application/json
+
+{
+    "username": "hacker",
+    "password": "123"
+}
+
+### Test 4: Failed Login (Attempt 3)
+POST https://cst8919lab2.azurewebsites.net/login
+Content-Type: application/json
+
+{
+    "username": "admin",
+    "password": "password"
+}

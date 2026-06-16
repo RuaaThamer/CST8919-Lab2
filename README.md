@@ -27,9 +27,6 @@ While a flat count check (greater than 5 failed attempts) works as a proof-of-co
 
 ---
 
-## KQL Query & Explanation
-
-```kusto
 AppServiceConsoleLogs
 | where ResultDescription contains "Failed login attempt for user"
 | project TimeGenerated, Result=ResultDescription
